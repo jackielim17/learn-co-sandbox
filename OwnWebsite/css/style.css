@@ -1,0 +1,221 @@
+
+
+#title-section {
+  text-align: center;
+  font: courier;
+  position 
+  top 
+  left 
+  
+}
+
+#name-title {
+  text-align: center;
+  background-color: white;
+}
+#image-bio {
+text-align: center;
+}
+
+#adjectives {
+  text-align: center;
+  font: courier;
+}
+#bio {
+  text-align: center;
+  font: courier;
+}
+/*@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);*/
+.snip1226 {
+  font-family: 'Raleway', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.snip1226 * {
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1226 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 1.5em;
+  overflow: hidden;
+}
+.snip1226 a {
+  padding: 0.3em 0;
+  color: white;
+  position: relative;
+  display: inline-block;
+  letter-spacing: 1px;
+  margin: 0;
+  text-decoration: none;
+}
+.snip1226 a:before,
+.snip1226 a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1226 a:before {
+  bottom: 100%;
+  display: block;
+  height: 3px;
+  width: 100%;
+  content: "";
+  background-color: #e62259;
+}
+.snip1226 a:after {
+  padding: 0.3em 0;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  content: attr(data-hover);
+  color: white;
+  white-space: nowrap;
+}
+.snip1226 li:hover a,
+.snip1226 .current a {
+  transform: translateY(100%);
+}
+
+.masthead,
+.introduction,
+.location,
+.questions,
+.content-footer {
+    /* Layout Declarations */
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.masthead-intro,
+.masthead-heading,
+.content-footer > p,
+.social {
+    /* Layout Declarations */
+    text-align: center;
+}
+
+.introduction,
+.location,
+.questions {
+	/* Layout Declarations */
+   max-width: 38em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.introduction > p,
+.location > p,
+.content-footer > p {
+	/* Typography Declarations */
+	font-weight: 300;
+	letter-spacing: 0.05em;
+}
+
+.masthead {
+	/* Layout Declrations */
+	padding: 6em 0;
+	/* Appearance Declrations */
+	background-image: url(https://apis.mail.yahoo.com/ws/v3/mailboxes/@.id==VjN-EenpXj1DFuhczp-6ESgQRPR4uZr9QVpgQoqXQ0IYjiaSfAl5QCIV-zttKXFNhSnqyX6BwtScfmpNY-OaUiU-_A/messages/@.id==AKw4fFM-A2mxWzHkIAYWmIKRmEE/content/parts/@.id==2/thumbnail?appId=YMailNorrin&downloadWhenThumbnailFails=true&pid=2);
+	background-repeat: no-repeat;
+	background-size: 100% 175%;
+
+}
+
+.masthead-intro {
+	/* Layout Declarations */
+	margin-bottom: 0.1em;
+	/* Typography Declarations */
+	/*color: ;*/
+	font-family: "Gentium Book Basic", Georgia, serif;
+	font-size: 2em;
+}
+
+.masthead-heading {
+	/* Layout Declarations */
+	margin-top: -0.2em;
+	/* Typography Declarations */
+	color: #FFF1C2;
+	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 6em;
+	letter-spacing: -0.02em;
+	text-transform: uppercase;
+	text-shadow: 0px 3px 0px #FFCF33;
+}
+
+.heading {
+	/* Layout Declarations */
+	max-width: 19em;
+	margin-top: 2em;
+}
+
+.question {
+	/* Layout Declarations */
+	margin: 2em 0 1em 0;
+	/* Typography Declarations */
+	color: #008000;
+	font-family: "Gentium Book Basic", Georgia, serif;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.answer {
+	/* Layout Declarations */
+	margin-left: 0em;
+}
+
+.content-footer {
+	/* Layout Declarations */
+	margin-top: 5em;
+	padding: 4em 0;
+	/* Appearance Rules */
+	background-color: #594F49;
+}
+
+.content-footer > p {
+  /* Typography Declarations */
+  color: white;
+}
+
+.social {
+	/* Layout Declarations */
+	padding: 0;
+	/* Appearance Declarations */
+	list-style: none;
+}
+
+.social > li {
+	/* Layout Declarations */
+	display: inline-block;
+	margin-right: 1em;
+}
+
+@media screen and (max-width: 500px) {
+  .masthead {
+    padding:  3em 0;
+  }
+  .masthead-heading {
+    font-size: 3em;
+  }
+}
+
+body {
+  background-color: pink;
+  padding: 50px 0;
+}
+#adv-background {
+  background-color: lightblue;
+}
+#adventures {
+  background-color: lightblue;
+}
+
+#aboutme {
+  background-color: #99ff99;
+}
+}

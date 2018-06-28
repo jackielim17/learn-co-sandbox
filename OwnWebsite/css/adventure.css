@@ -1,0 +1,23 @@
+
+/*body {*/
+/*  margin: 10px;*/
+/*  font-family: 'Helvetica';*/
+/*}*/
+
+/*.container {*/
+/*  width: 250px;*/
+/*  height: 250px;*/
+/*  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://www.lonelyplanet.com/travel-blog/tip-article/wordpress_uploads/2015/05/Ksamil-beach-Albania_cs.jpg);*/
+/*  display: flex;*/
+/*}*/
+
+/*.text {*/
+/*  color: white;*/
+/*  font-size: 30px;*/
+/*  margin: auto;*/
+/*}*/
+html {*/
+    background: url(https://apis.mail.yahoo.com/ws/v3/mailboxes/@.id==VjN-EenpXj1DFuhczp-6ESgQRPR4uZr9QVpgQoqXQ0IYjiaSfAl5QCIV-zttKXFNhSnqyX6BwtScfmpNY-OaUiU-_A/messages/@.id==AKw4fFM-A2mxWzHkIAYWmIKRmEE/content/parts/@.id==2/thumbnail?appId=YMailNorrin&downloadWhenThumbnailFails=true&pid=2) no-repeat center fixed; 
+    background-size: cover;
+}
+
